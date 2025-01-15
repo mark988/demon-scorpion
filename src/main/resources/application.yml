@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: demon
+
+canal:
+  host: 39.101.175.96
+  port: 11111
+  batchSize: 1000
+  pushUrl: http://localhost:8080/test/v2
+
+db:
+  name: heima
+  user: canal
+  passwd: Aamark8355141

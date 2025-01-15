@@ -1,0 +1,7 @@
+FROM openjdk:17
+
+WORKDIR /app
+
+COPY ./target/demon-scorpion-0.0.1.jar  /app.jar
+
+CMD ["java","-Dserver.port=5555","-jar","/app.jar","--spring.profiles.active=testcloud"]

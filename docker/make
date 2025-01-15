@@ -1,0 +1,5 @@
+echo "拷贝jar到当前目录"
+
+cp ../mxbcservice-1.0.jar  .
+echo "开始执行docker 镜像"
+docker build -f ./Dockerfile-test  -t mxbcservice:1.0 .

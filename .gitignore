@@ -1,0 +1,8 @@
+.idea/
+log/
+target/
+*.iml
+src/test/*
+.gradle/*
+*.iws
+*.ipr
